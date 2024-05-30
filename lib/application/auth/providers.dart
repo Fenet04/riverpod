@@ -11,7 +11,7 @@ final httpClientProvider = Provider<http.Client>((ref) {
 });
 
 final baseUrlProvider = Provider<String>((ref) {
-  return 'http://192.168.100.4:3000'; // Replace with your machine's IP
+  return 'http://localhost:3000'; // Replace with your machine's IP
 });
 
 final secureStorageProvider = Provider<FlutterSecureStorage>((ref) {
